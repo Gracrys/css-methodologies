@@ -1,3 +1,25 @@
+/* Normalize 
+*/
+
+body, html{
+	margin: 0;
+}
+
+/* layout 
+ */
+
 .flex-row{
 	display: flex;
+}
+
+.size1of3{
+	width: 34%;
+}
+
+.size2of3{
+	width: 66%;
+}
+
+.bg{
+	background: #eeeeee;	
 }
