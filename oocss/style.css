@@ -3,13 +3,42 @@
 
 body, html{
 	margin: 0;
+	font-family: calibri;
 }
 
+a{
+	color: black;
+}
+
+ul{
+	list-style-type: square;
+	padding-inline: 1rem;
+}
+
+/* utils
+*/
+
+.overflow{
+	overflow-y: auto;
+}
+
+.bg{
+	background: #eeeeee;	
+}
 /* layout 
  */
 
+.main{
+	padding:  0 15vw;
+	min-height: 100vh;
+}
+
 .flex-row{
 	display: flex;
+}
+
+.column{
+	padding: 1rem;
 }
 
 .size1of3{
@@ -20,6 +49,22 @@ body, html{
 	width: 66%;
 }
 
-.bg{
-	background: #eeeeee;	
+.main-article{
+	width: 80%;
+}
+
+
+ .left-nav{
+ 	/*padding-left:  3rem;*/
+ 	position: relative;
+ }
+
+.left-nav::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 90%;
+    background: #c0c0c0;
+    right: 0;
+    top: 5%;	
 }
