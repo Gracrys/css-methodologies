@@ -1,0 +1,68 @@
+/* Normalize 
+*/
+
+body, html{
+	margin: 0;
+	font-family: calibri;
+}
+
+a{
+	color: black;
+}
+
+ul{
+	list-style-type: square;
+	padding-inline: 1rem;
+}
+
+
+/* page (body)
+*/
+
+.page{
+	display: flex;
+}
+
+.page--white{
+	background: #eeeeee;	
+}
+
+
+/* Layout
+*/
+
+.page__sidemenu{
+	width: 34%
+}
+
+.page__main{
+	width: 66%
+}
+
+.sidemenu{
+	position: relative;	
+}
+
+.sidemenu::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 90%;
+    background: #c0c0c0;
+    right: 0;
+    top: 5%;	
+}
+
+.content{
+	pading: 1rem;
+}
+
+.main{
+	padding: 0 15vw;
+	min-height: 100vh;
+	overflow-y: auto;
+}
+
+.main__article{
+	width: 80%
+}
