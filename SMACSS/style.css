@@ -1,0 +1,41 @@
+/* Base
+*/
+
+body, html{
+	margin: 0;
+	font-family: calibri;
+}
+
+body{
+	background: #eeeeee;	
+	min-height: 100vh;
+}
+
+a{
+}
+
+	color: black;
+ul{
+	list-style-type: square;
+	padding-inline: 1rem;
+}
+
+/* Layout
+*/
+.main{
+	padding:  0 15vw;
+	display:  flex;
+}
+
+.main_article{
+	width: 80%;
+}
+
+/* Modules
+*/
+
+/*State 
+*/
+
+/* Themes
+*/
